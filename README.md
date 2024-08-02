@@ -19,6 +19,14 @@ The dataset used for this analysis includes various attributes related to traffi
 - seaborn
 - matplotlib
 
+**VISUALISATIONS**
+
+- Accidents by Hour of the Day
+- Accidents by Road Surface Conditions
+- Accidents by Weather Conditions
+- Accidents by Type of Collision
+- Accidents by Types of Junction
+
 **RESULTS**
 
 The analysis script (accidents.py) performs the following tasks:
@@ -29,13 +37,3 @@ The analysis script (accidents.py) performs the following tasks:
 - Investigates the distribution of accidents by weather conditions.
 - Analyzes the types of collisions and the types of junctions where accidents occur.
 - Creates visualizations to represent the findings.
-
-**VISUALISATIONS**
-
-- Accidents by Hour of the Day
-- Accidents by Road Surface Conditions
-- Accidents by Weather Conditions
-- Accidents by Type of Collision
-- Accidents by Types of Junction
-
-The dataset used by me is uploaded in this repository by the name "data.csv".
