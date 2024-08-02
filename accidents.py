@@ -29,36 +29,35 @@ plt.title('Distribution of Accidents by Road Surface Conditions')
 plt.xlabel('Road Surface Conditions')
 plt.ylabel('Number of Accidents')
 plt.xticks(rotation=45, ha='right', fontsize=12)  # Rotate labels, align them to the right, and set fontsize
-plt.subplots_adjust(bottom=0.3)  # Adjust the bottom margin
+plt.subplots_adjust(bottom=0.35)  # Adjust the bottom margin
 plt.show()
 
 # Distribution of Accidents by Weather Conditions
-plt.figure(figsize=(12, 6))
+plt.figure(figsize=(15, 7))  # Increase the figure size
 sns.countplot(x='Weather_conditions', data=df, palette='viridis')
 plt.title('Distribution of Accidents by Weather Conditions')
 plt.xlabel('Weather Conditions')
 plt.ylabel('Number of Accidents')
-plt.xticks(rotation=45)
-plt.subplots_adjust(bottom=0.3)
+plt.xticks(rotation=45, ha='right', fontsize=12)  # Rotate labels, align them to the right, and set fontsize
+plt.subplots_adjust(bottom=0.35)  # Adjust the bottom margin
 plt.show()
 
 # Distribution of Accidents by Type of Collision
-plt.figure(figsize=(12, 6))
+plt.figure(figsize=(15, 7))  # Increase the figure size
 sns.countplot(x='Type_of_collision', data=df, palette='viridis')
 plt.title('Distribution of Accidents by Type of Collision')
 plt.xlabel('Type of Collision')
 plt.ylabel('Number of Accidents')
-plt.xticks(rotation=45, ha='right', fontsize=12)
-plt.subplots_adjust(bottom=0.4)
+plt.xticks(rotation=45, ha='right', fontsize=12)  # Rotate labels, align them to the right, and set fontsize
+plt.subplots_adjust(bottom=0.4)  # Adjust the bottom margin
 plt.show()
 
-
 # Distribution of Accidents by Types of Junction
-plt.figure(figsize=(12, 6))
+plt.figure(figsize=(15, 7))  # Increase the figure size
 sns.countplot(x='Types_of_Junction', data=df, palette='viridis')
 plt.title('Distribution of Accidents by Types of Junction')
 plt.xlabel('Types of Junction')
 plt.ylabel('Number of Accidents')
-plt.xticks(rotation=45)
-plt.subplots_adjust(bottom=0.3)
+plt.xticks(rotation=45, ha='right', fontsize=12)  # Rotate labels, align them to the right, and set fontsize
+plt.subplots_adjust(bottom=0.35)  # Adjust the bottom margin
 plt.show()
