@@ -37,3 +37,5 @@ The analysis script (accidents.py) performs the following tasks:
 - Investigates the distribution of accidents by weather conditions.
 - Analyzes the types of collisions and the types of junctions where accidents occur.
 - Creates visualizations to represent the findings.
+
+The dataset used by me is uploaded in this repository by the name "data.csv".
